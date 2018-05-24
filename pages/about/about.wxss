@@ -1,0 +1,10 @@
+/* pages/about/about.wxss */
+.weui-article {
+    padding-bottom: 0;
+}
+.hr{
+    border-bottom:1px solid #ccc;
+}
+.weui-article__p.hr{
+    padding:8px 0;
+}

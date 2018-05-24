@@ -1,0 +1,4 @@
+/* pages/dynamicDetail/dynamicDetail.wxss */
+.page__desc{
+    margin-bottom: 10px;
+}

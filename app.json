@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/allCourses/allCourses",
+    "pages/about/about",
+    "pages/dynamic/dynamic",
+    "pages/dynamicDetail/dynamicDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#C71722",
+    "navigationBarTitleText": "蔚来网络",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#3c3c3c",
+    "selectedColor": "#F39800",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/allCourses/allCourses",
+        "iconPath": "image/class1.png",
+        "selectedIconPath": "image/class2.png",
+        "text": "全部课程"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my_active.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

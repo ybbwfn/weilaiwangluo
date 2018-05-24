@@ -1,0 +1,29 @@
+<view class="page">
+
+    <view class="page__bd">
+        <view class="weui-article">
+        <view class="page__title">关于我们</view>
+        
+            <view class="weui-article__section">
+
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                        {{ceshi.content.list}}
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../image/icon64_appwx_logo.png" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">联系方式</view>
+                    
+                    <view class="weui-article__p hr">电话：7258123</view>
+                    <view class="weui-article__p hr">手机：{{ceshi.phone.list}}</view>
+                    <view class="weui-article__p hr">地址：{{ceshi.adress.list}}</view>
+           
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

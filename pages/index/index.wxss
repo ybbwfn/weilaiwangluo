@@ -1,0 +1,80 @@
+.slide-image{
+    width:100%;
+    height:150px;
+    display:inline-block;
+    overflow:hidden;
+}
+
+/** wxss **/
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:red;
+}
+
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+
+.y-search{
+position:absolute;
+background-color:#fff;
+z-index:9999;
+width:80%;
+margin:0 auto;
+left:10%;
+top:10px;
+border-radius:16px;
+overflow:hidden;
+
+}
+.weui-search-bar{
+    padding:0
+}
+.y-pic-text{
+    text-align: center;
+    font-size: 12px;
+}
+.y-pic-text>image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.y-kong{
+    width: 100%;
+    height: 11px;
+    background-color: #F4F4F4;
+}
+.weui-search-bar__form {
+    border: 0;
+}
+.y-btn-yellow{
+    display: inline-block;
+    padding:0 4px;
+    border:1px solid #F1BB22;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.weui-media-box{
+    padding:15px 0;
+}
+
+.weui-panel:before{
+    border: none;
+}
+.weui-media-box__hd_in-appmsg {
+    width:180rpx;
+    height:120rpx;
+}

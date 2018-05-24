@@ -1,0 +1,25 @@
+<view class="weui-panel">
+            <block wx:for="{{ceshi}}">
+                <navigator  url="../dynamicDetail/dynamicDetail?id={{item.id}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="../../image/icon64_appwx_logo.png" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                       
+                        <view class="weui-media-box__title">{{item.name}}</view>
+                        <view class="weui-media-box__desc">{{item.content.list}}</view>
+                    </view>
+                </navigator>
+
+            </block>
+            <view class="weui-loadmore" hidden="{{dataBoll}}">
+                <view class="weui-loading"></view>
+                <view class="weui-loadmore__tips">正在加载···</view>
+            </view>
+            <view class="weui-loadmore weui-loadmore_line">
+                <view class="weui-loadmore__tips weui-loadmore__tips_in-line">别扯了，已经到头了</view>
+            </view>
+            <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                <view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view>
+            </view>
+</view>

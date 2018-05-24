@@ -1,0 +1,27 @@
+<view class="page">
+
+    <view class="page__bd">
+        <view class="weui-article">
+        <view class="page__title">{{ceshi.title}}</view>
+        <view class="page__desc">2017-07-10  译名</view>
+            <view class="weui-article__section">
+
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                        {{ceshi.content.list}}
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../image/icon64_appwx_logo.png" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="../../image/icon64_appwx_logo.png" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3"></view>
+                    <view class="weui-article__p">
+                        {{ceshi.detail.list}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

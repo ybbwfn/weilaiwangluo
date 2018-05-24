@@ -1,0 +1,11 @@
+/* pages/dynamic/dynamic.wxss */
+.y-btn-yellow{
+    display: inline-block;
+    padding:0 4px;
+    border:1px solid #F1BB22;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
